@@ -1,3 +1,2 @@
 # badusb
-Badusb related experiments
-Here is the place for my badusb code.
+Badusb related experiments: here is the place for my badusb code.
